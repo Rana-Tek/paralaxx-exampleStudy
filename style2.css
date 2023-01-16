@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax2{
+    background-image: url("Fg-iZSvWYAQkr5f.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.history{
+    background: linear-gradient(90deg, rgba(63,215,203,1) 64%, rgba(100,46,120,1) 100%);
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+}
+.history p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.history nav ul{
+ list-style-type: none;
+ margin-right: 1rem;
+ margin-left: 1rem;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ 
+}
+
+.history li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    justify-items: center;
+    align-self: center;
+    padding-left: 0.8rem;
+}

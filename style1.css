@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax1{
+    background-image: url("GameName_Store_Landscape_2560x1440_EN-2560x1440-9c8e19edbd7c55e4afeb6081e4f8dd1a.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    background: linear-gradient(90deg, rgba(63,215,203,1) 64%, rgba(100,46,120,1) 100%);
+    width: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+}
+
+.about p{
+margin-right: 1rem;
+margin-left: 1rem;
+}
+.about nav ul{
+    list-style-type: none; 
+    display: flex;
+    margin-top: 1rem;
+
+
+}
+
+.about ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 0.8rem;
+}

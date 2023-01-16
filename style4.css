@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parallax4 {
+  background-image: url("Fg-iZSvWYAQkr5f.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.closing-page {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 215, 203, 1) 64%,
+    rgba(100, 46, 120, 1) 100%
+  );
+  width: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.closing-page h2 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.closing-page nav ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.closing-page ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-right: 0.8rem;
+}
